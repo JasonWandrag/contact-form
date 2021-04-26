@@ -4,6 +4,7 @@
 body {
   background-image: url(https://picsum.photos/1920);
   background-size: cover;
+  background-position: center;
   padding: 5% 10%;
   display: flex;
   justify-content: center;
@@ -51,4 +52,16 @@ body {
   width: 100%;
   padding: 10px;
   outline: none;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.form-input::placeholder {
+  color: white;
+  font-family: sans-serif;
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: bold;
 }
